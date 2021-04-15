@@ -1,0 +1,8 @@
+{
+    "cucumberautocomplete.steps": [
+        "test/features/step_definitions/*.js",
+        "node_modules/qa-lib/src/step_definitions/*.js",
+        "cypress/integration/common/*/*.js",
+    ],
+    "cucumberautocomplete.syncfeatures": "cypress/integration/common/*.feature"
+}

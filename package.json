@@ -1,0 +1,29 @@
+{
+  "name": "demo_mvms",
+  "version": "1.0.0",
+  "description": "This repo hosts a short demo of automated test on mvms website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylvain-viole/demo_mvms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sylvain-viole/demo_mvms/issues"
+  },
+  "homepage": "https://github.com/sylvain-viole/demo_mvms#readme",
+  "devDependencies": {
+    "cypress": "^7.1.0",
+    "cypress-cucumber-preprocessor": "^4.0.3"
+  },
+  "cypress-cucumber-preprocessor": {
+  "nonGlobalStepDefinitions": true
+  }
+}
